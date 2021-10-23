@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+.our-menu
+{
+    width: auto; 
+    height:auto;
+}
+.our-menu h1
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.ROW
+{
+    width: 80vw; 
+    height: auto; 
+    margin: auto;
+	display: flex;  
+    justify-content: space-around;
+	flex-wrap: wrap; 
+    
+}
+h2
+{
+    text-align: center;
+    font-weight: 600;
+    padding: 1px 5px;
+    background: rgb(235, 90, 150);
+    border: 5px solid #000000;
+    border-top: 0;
+    border-right: 0;
+    margin-left: 190px;
+}
+.BEEF h2
+{
+    text-align: center;
+    font-weight: 600;
+    padding: 1px 5px;
+    font: 20;
+    color: rgb(172, 27, 27);
+    background: rgb(167, 184, 41);
+    border: 5px solid #000000;
+    border-top: 0;
+    border-right: 0;
+    margin-left: 190px;
+}
+.SUSHI h2
+{ 
+    text-align: center;
+    font-weight: 600;
+    padding: 1px 5px;
+    font: 20;
+    background: rgb(112, 27, 112);
+    border: 5px solid #050503;
+    border-top: 0;
+    border-right: 0;
+    margin-left: 190px;
+}
+p{
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.CHICKEN
+{
+    position: relative;
+ 
+    background:rgb(100, 209, 146);
+	flex:1 1 200px;
+	margin: 20px;
+   
+    border: 5px solid black;
+}
+.BEEF
+{
+    position: relative;
+   
+    border: 5px solid black;
+    background:rgb(78, 233, 161);
+	flex:1 1 200px;
+	margin: 20px;
+}
+.SUSHI
+{
+    border: 5px solid black;
+	background:rgb(54, 204, 142);
+	flex:1 1 200px;
+	margin: 20px;
+}
+@media(min-width:991px)
+{
+    .our-menu{
+        width: 100%;
+    }
+}
+@media(min-width:767px) and (max-width:991px){
+    
+    .CHICKEN .BEEF .SUSHI{
+        width: 50%;
+        float: left;
+    }
+    .SUSHI-TABLET{
+        width: 100%;
+        float: left;
+    }
+}
+@media(max-width:767px){
+    .CHICKEN .BEEF .SUSHI{
+        width: 100%;
+        float: left;
+    }
+}
