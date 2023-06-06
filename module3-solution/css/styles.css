@@ -1,0 +1,128 @@
+body{
+    background-color : rgb(101, 27, 131);
+    font-size : 16px;
+    color : #fff;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: rgb(60, 134, 26);
+    border-radius: 0;
+    border: 0;
+  }
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: rgb(177, 16, 16);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 2px 1px 2px rgb(32, 34, 37);
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: .90;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.visible-xs{
+    background-color : rgb(122, 62, 122);
+    border-bottom: 1px solid black;
+}
+
+#nav-list {
+    margin-top : 10px;
+}
+
+#nav-list a{
+    color : #043b2e;
+    font-weight : italic;
+    text-align : center;
+    font-family : "Times New Roman";
+}
+
+#nav-list a:hover{
+    background-color : #c0baba;
+  }
+  
+#nav-list a span{
+    font-size : 1.8em;
+}
+
+.navbar-header button.navbar-toggle , .navbar-header .icon-bar{
+    border : 1px solid #61122f;
+}
+#collapsable-nav a { 
+    font-size: 1.2em;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+h2
+{
+    width: 100%;
+    margin:15px 0px 15px;
+    text-align: center;
+    padding : 20px;
+    color :#fff;
+    font-family: "Times New Roman";
+}
+.row
+{
+    width:100%; 
+    height: auto; 
+    margin: auto;
+	display: flex;  
+    justify-content:center;
+	flex-wrap: wrap; 
+    flex:1 1 200px;
+    
+}
+h3
+{
+    text-align: center;
+    font-weight: 600;
+    padding: 1px 5px;
+    font-family: "Times New Roman";
+}
+
+p{
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+.chicken{
+    position: relative;
+    border: 2px solid black;
+    background:rgb(180, 176, 180);
+    color : rgb(43, 24, 24);
+	/* flex:1 1 200px 1; */
+	margin: 20px;
+}
+.beef{
+    position: relative;
+    border: 2px solid black;
+    background:rgb(180, 176, 180);
+    color :rgb(43, 24, 24);
+	/* flex:1 1 200px 1; */
+	margin: 20px;
+}
+
+.sushi{
+    position: relative;
+    border: 2px solid black;
+    background:rgb(180, 176, 180);
+    color :rgb(43, 24, 24);
+	/* flex:1 1 200px 1; */
+	margin: 20px;
+}
